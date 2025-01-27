@@ -7,7 +7,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const api_key: string | undefined = process.env.;
+  const api_key: string | undefined = process.env.SENDGRID_API_KEY;
   
   if (req.method === "POST") {
     try {

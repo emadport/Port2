@@ -28,7 +28,7 @@ const nextConfig = {
     SERVER_LINK_DEVELOPMENT: process.env.SERVER_LINK_DEVELOPMENT,
     SERVER_LINK_PRODUCTION: process.env.SERVER_LINK_PRODUCTION,
     MONGODB_URI: process.env.MONGODB_URI,
-    : process.env.,
+    SENDGRID_API_KEY: process.env.SENDGRID_API_KEY,
     SECRET: process.env.SECRET,
     STRIPE_KEY: process.env.STRIPE_KEY,
     CLOUDINARY_URL: process.env.CLOUDINARY_URL,

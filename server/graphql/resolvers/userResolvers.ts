@@ -224,7 +224,7 @@ const userResolvers: Resolvers = {
         },
       };
 
-      const api_key = process.env.!;
+      const api_key = process.env.SENDGRID_API_KEY!;
       sgMail.setApiKey(api_key);
       await sgMail.send(msg);
 

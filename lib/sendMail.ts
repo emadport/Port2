@@ -7,7 +7,7 @@ interface MSG {
   templateId: string;
   dynamicTemplateData: object;
 }
-const api_key: string | undefined = process.env.;
+const api_key: string | undefined = process.env.SENDGRID_API_KEY;
 
 export default async function sendMail(msg: MSG) {
   sgMail.setApiKey(api_key as string);
